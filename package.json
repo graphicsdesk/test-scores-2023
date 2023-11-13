@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "test-scores-2023",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "parcel src/index.html --global script",
-    "build": "parcel build src/index.html --global script --public-url . --no-content-hash",
+    "build": "parcel build src/index.html --global script --public-url https://spectator-static-assets.s3.amazonaws.com/test-scores-2023 --no-content-hash",
     "postinstall": "patch-package"
   },
   "devDependencies": {
@@ -35,6 +35,6 @@
     "USE_EYE_NAV": false,
     "USE_COVER_HED": false,
     "IS_EMBED": false,
-    "DOC_URL": null
+    "DOC_URL": "https://docs.google.com/document/d/1JV2fVhKWMo1MHIJqL3oq10mRSOrWPO_iRnRkmD92N5g/edit"
   }
 }
